@@ -1,11 +1,3 @@
-/*
-    Spotify API Token server
-        Esta aplicación únicamente toma el CLIENTID y CLIENTSecret
-        que brinda spotify, para obtener el token mediante una petición
-        POST desde el front-end. 
-
-*/
-
 const express = require('express');
 const request = require('request');
 const path = require('path');
